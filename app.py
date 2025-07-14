@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from mutual_fund_utils import (
+from functions import (
     get_scheme_metadata,
     process_scheme_metadata,
     get_historical_nav,

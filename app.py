@@ -1,11 +1,6 @@
-import streamlit as st
-import pandas as pd
-from functions import (
-    get_scheme_metadata,
-    process_scheme_metadata,
-    get_historical_nav,
-    summarize_returns
-)
+# import streamlit as st
+# import pandas as pd
+from functions import *
 
 st.set_page_config(page_title="Mutual Fund Summary App", layout="wide")
 st.title("📈 Mutual Fund Summary Explorer")

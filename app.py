@@ -1,6 +1,6 @@
 # import streamlit as st
 # import pandas as pd
-from functions import *
+# from functions import *
 
 st.set_page_config(page_title="Mutual Fund Summary App", layout="wide")
 st.title("📈 Mutual Fund Summary Explorer")
